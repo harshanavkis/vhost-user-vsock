@@ -19,7 +19,7 @@ vhost_user_backend = { git = "https://github.com/cloud-hypervisor/cloud-hypervis
 vhost = {git = "https://github.com/rust-vmm/vhost", branch = "master" }
 virtio-bindings = "0.1.0"
 vm-memory = "0.5.0"
-vm-virtio = { git = "https://github.com/cloud-hypervisor/cloud-hypervisor.git" }
+vm-virtio = { git = "https://github.com/rust-vmm/vm-virtio" }
 vmm = { git = "https://github.com/cloud-hypervisor/cloud-hypervisor.git" }
 vmm-sys-util = ">=0.8.0"
 virtio-devices = { git = "https://github.com/cloud-hypervisor/cloud-hypervisor.git" }
